@@ -1,6 +1,6 @@
 Algoritmo Piramide
 	Definir n, fila, j Como Entero;
-	Escribir "Altura de la pir·mide: "
+	Escribir "Altura de la pir√°mide: "
 	Leer n;
 	Para fila <- 1 Hasta n Hacer
 		Para j <- 1 Hasta n - fila Con Paso 1 Hacer

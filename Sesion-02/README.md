@@ -12,7 +12,7 @@ R9	    Moto	    960	        No	     30.000
 R10	   Carro	    120	        Si	      4.000
 R11	   Carro	    600	        Si	     15.000
 R12	    Moto	    920	        Si	     15.000
-R13	 Biclicleta      30	        No	      Error
+R13	 Biclicleta    30	        No	      Error
 R14	   Carro	     -5	        No	      Error
 R15	    Moto	    -10	        Si	      Error
 
@@ -20,11 +20,11 @@ R15	    Moto	    -10	        Si	      Error
 Pruebas de escritorio (parqueadero)			
 Caso 4: carro   61 minutos   sin factura			
 Paso 	          Tipo	   Minutos    Factura
-Lee datos	     Carro	     61	        No
-Segun	         Carro	     61	        No
-Calcula horas	 Carro	     61	        No
-Calcula valor	 Carro	     61	        No
-Aplica tope	     Carro	     61	        No
+Lee datos	      Carro	     61	        No
+Segun	          Carro	     61	        No
+Calcula horas	  Carro	     61	        No
+Calcula valor	  Carro	     61	        No
+Aplica tope	    Carro	     61	        No
 
 
 
@@ -35,7 +35,7 @@ Lee datos	     Moto	     61	        Si
 Segun	         Moto	     61	        Si
 Calcula horas	 Moto	     61	        Si
 Calcula valor	 Moto	     61	        Si
-Aplica tope	     Moto	     61	        Si
+Aplica tope	   Moto	     61	        Si
 
 
 
@@ -54,25 +54,25 @@ Tabla de decisión (semaforo)
 Pruebas de escritorio (semaforo).		
 Paso	         Unidades	    Resultado
 Lee datos	        15	
-Evalúa < 0	        15	          Falso
-Evalúa = 0	        15	          Falso
+Evalúa < 0	      15	          Falso
+Evalúa = 0	      15	          Falso
 Evalúa <= 10	    15	          Falso
-Evalúa > 10	        15	    verde: todo bien
+Evalúa > 10	      15	    verde: todo bien
 Lee datos	         6	
-Evalúa < 0	         6	          Falso
-Evalúa = 0	         6	          Falso
+Evalúa < 0	       6	          Falso
+Evalúa = 0	       6	          Falso
 Evalúa <= 10	     6	          Falso
-Evalúa > 10	         6	     amarillo: pedir
+Evalúa > 10	       6	     amarillo: pedir
 Lee datos	         0	
-Evalúa < 0	         0	          Falso
-Evalúa = 0	         0	          Falso
+Evalúa < 0	       0	          Falso
+Evalúa = 0	       0	          Falso
 Evalúa <= 10	     0	          Falso
-Evalúa > 10	         0	      rojo: agotado
+Evalúa > 10	       0	      rojo: agotado
 Lee datos	        -3	
-Evalúa < 0	        -3	          error
-Evalúa = 0	        -3	          error
+Evalúa < 0	      -3	          error
+Evalúa = 0	      -3	          error
 Evalúa <= 10	    -3	          error
-Evalúa > 10	        -3	          error
+Evalúa > 10	      -3	          error
 
 
 
@@ -87,19 +87,19 @@ Tabla de decisión (Año bisiesto)
 
 Pruebas de escritorio (Año bisiesto) = verdadero					
 Caso bisiesto: año 2024					
-Paso	         Anio	 AnioMOD 4 = 0	  Anio MOD 100 <> 0	 Anio MOD 400 = 0	 Resultado/Condición global
-Lee datos	 2024				
-Evalúa MOD 4	 2024	  Verdadero			
-Evalúa MOD 100	 2024	  Verdadero	     Verdadero		                              Verdadero
-Evalúa MOD 400	 2024	  Verdadero	       Falso	              Falso	              Verdadero
+Paso	           Anio	   AnioMOD 4 = 0	    Anio MOD 100 <> 0	     Anio MOD 400 = 0	      Resultado/Condición global
+Lee datos	       2024				
+Evalúa MOD 4	   2024	    Verdadero			
+Evalúa MOD 100	 2024	    Verdadero	           Verdadero		                                       Verdadero
+Evalúa MOD 400	 2024	    Verdadero	            Falso	                   Falso	                   Verdadero
 
 
 
 Pruebas de escritorio (Año bisiesto) = falso					
 Caso bisiesto: año 2024					
-Paso	         Anio	   Anio MOD 4 = 0	Anio MOD 100 <> 0	Anio MOD 400 = 0	Resultado/Condición global
-Lee datos	 1900				
-Evalúa MOD 4	 1900	     Verdadero			
-Evalúa MOD 100	 1900	     Verdadero	             Falso		                                  Falso
-Evalúa MOD 400	 1900	     Verdadero	             Falso	             Falso	                  Falso
+Paso	            Anio	     Anio MOD 4 = 0	       Anio MOD 100 <> 0	          Anio MOD 400 = 0	      Resultado/Condición global
+Lee datos	        1900				
+Evalúa MOD 4	    1900	      Verdadero			
+Evalúa MOD 100	  1900	      Verdadero	             Falso		                                                    Falso
+Evalúa MOD 400	  1900	      Verdadero	             Falso	                          Falso	                      Falso
 

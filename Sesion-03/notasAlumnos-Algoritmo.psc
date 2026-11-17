@@ -27,8 +27,8 @@ Algoritmo notasEstudianntes
 	FinPara
 	Escribir "Promedio: ", suma / 5;
 	Escribir "Aprobados: ", aprobados;
-	Escribir "Nota m·s alta: ", alta;
-	Escribir "Nota m·s baja: ", baja;
+	Escribir "Nota m√°s alta: ", alta;
+	Escribir "Nota m√°s baja: ", baja;
 	si alguienPerdio Entonces
 		Escribir "Hay estudiantes en refuerzo"
 	FinSi

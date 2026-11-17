@@ -1,10 +1,10 @@
 Tabla de traza (cajeroParqueadero)				
 Vuelta 	             Valor      Total	  Carros 	  Lee
-Antes del ciclo	     4.000	      0	        0	
-1	                 4.000	    4.000	    1	     8.000
-2	                 8.000     12.000	    2	     2.000
-3	                 2.000     14.000	    3	       0
-Sale	               0       14.000	    3	
+Antes del ciclo	     4.000	      0	      0	
+1	                   4.000	    4.000	    1	     8.000
+2	                   8.000     12.000	    2	     2.000
+3	                   2.000     14.000	    3	       0
+Sale	                  0      14.000	    3	
 
 
 Tabla de traza (Piramide con altura 4)		
